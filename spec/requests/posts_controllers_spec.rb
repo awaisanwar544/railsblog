@@ -1,10 +1,10 @@
 require 'rails_helper'
 
-RSpec.describe "Posts", type: :request do
-  describe "GET post#index" do
+RSpec.describe 'Posts', type: :request do
+  describe 'GET post#index' do
     before(:example) { get '/users/1/posts' }
 
-    it "valid response" do
+    it 'valid response' do
       expect(response).to have_http_status(200)
     end
 
