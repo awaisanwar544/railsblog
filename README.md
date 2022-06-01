@@ -1,24 +1,62 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Blog App - Ruby on Rails
 
-Things you may want to cover:
+The Blog app is a classic example of a blog website that is fully functional website. It includes the list of posts and empower readers to interact with them by adding comments and liking posts.
 
-* Ruby version
 
-* System dependencies
 
-* Configuration
+## Built with
 
-* Database creation
+    - Ruby on Rails
 
-* Database initialization
+## Prerequisites
 
-* How to run the test suite
+    - Ruby installed on local system
+    - npm ( Node Package Manager )
+    - Git and Github Account
 
-* Services (job queues, cache servers, search engines, etc.)
+## Getting Started
 
-* Deployment instructions
+To get a local copy up and running follow these simple example steps.
 
-* ...
+  - Open terminal
+  - Change to the desired directory then run the following:
+
+    - run `git clone git@github.com:awaisanwar544/railsblog.git`
+    - cd railsblog/ 
+    - git switch feature/setup-controllers
+    - run `bundle install`
+    - run `rails db:create`
+    - run `rails db:migrate`
+## Running the Application
+>**Steps to excute the app locally*
+  - Run `rails s` in the console at working directory
+## Authors
+
+## Authors
+
+👤 **Awais Anwar**
+
+- GitHub: [@githubhandle](https://github.com/awaisanwar544)
+- Twitter: [@twitterhandle](https://twitter.com/AwaisAnwar47)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/awaisanwar544/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
